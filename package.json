@@ -1,7 +1,7 @@
 {
-  "name": "google-books-proxy",
+  "name": "books-api-proxy",
   "version": "1.0.0",
-  "description": "Proxy for Google Books API",
+  "description": "Proxy para APIs de libros",
   "dependencies": {
     "node-fetch": "^2.6.7"
   }
