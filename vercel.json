@@ -1,7 +1,6 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/api/google-books", "dest": "/api/google-books-proxy.js" },
-    { "src": "/api/open-library", "dest": "/api/open-library-proxy.js" }
+    { "src": "/api/(.*)", "dest": "/api/$1" }
   ]
 }
