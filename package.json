@@ -1,8 +1,9 @@
 {
-  "name": "books-api-proxy",
+  "name": "isbn-scraper",
   "version": "1.0.0",
-  "description": "Proxy para APIs de libros",
+  "description": "Scraper para fechas de publicación de ISBNs",
   "dependencies": {
+    "google-spreadsheet": "^3.3.0",
     "node-fetch": "^2.6.7"
   }
 }
