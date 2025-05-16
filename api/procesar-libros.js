@@ -72,7 +72,7 @@ module.exports = async (req, res) => {
 class ScraperMultiApi {
   constructor(spreadsheetId, hojaNombre) {
     this.spreadsheetId = spreadsheetId;
-    this.hojaNombre = hojaNombre || 'Kobo';
+    this.hojaNombre = hojaNombre || 'Pegar aqui';
     this.hojaIndice = 'indice';
     this.indice = {};
     this.doc = null;
