@@ -1,10 +1,7 @@
 {
   "version": 2,
-  "name": "google-books-proxy",
-  "builds": [
-    { "src": "api/**/*.js", "use": "@vercel/node" }
-  ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" }
+    { "src": "/api/google-books", "dest": "/api/google-books-proxy.js" },
+    { "src": "/api/open-library", "dest": "/api/open-library-proxy.js" }
   ]
 }
